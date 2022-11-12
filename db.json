@@ -2,17 +2,25 @@
   "channels": [
     {
       "name": "Message Group",
-      "users": [1, 2],
+      "users": [
+        1,
+        2
+      ],
       "id": 1
     },
     {
       "name": "Demo",
-      "users": [1],
+      "users": [
+        1
+      ],
       "id": 2
     },
     {
       "name": "Demo 2",
-      "users": [2, 1],
+      "users": [
+        2,
+        1
+      ],
       "id": 3
     }
   ],
@@ -42,6 +50,34 @@
       "userId": 2,
       "date": "2021-07-09T10:50:49.061Z",
       "id": 2
+    },
+    {
+      "userId": 1,
+      "channelId": 1,
+      "message": "hi there",
+      "date": "2022-11-12T10:54:33.194Z",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "channelId": 1,
+      "message": "Hi",
+      "date": "2022-11-12T10:54:37.750Z",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "channelId": 1,
+      "message": "we are talking!",
+      "date": "2022-11-12T10:54:46.919Z",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "channelId": 1,
+      "message": "Hooooooooooooray!",
+      "date": "2022-11-12T10:54:53.241Z",
+      "id": 6
     }
   ]
 }

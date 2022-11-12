@@ -15,7 +15,8 @@ const state = reactive({
 });
 
 const instance = axios.create({
-  baseURL: 'http://localhost:8080',
+  // change port to 5000 from 8080
+  baseURL: 'http://localhost:5000',
 });
 
 export default function () {
